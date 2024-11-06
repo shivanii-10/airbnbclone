@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - MakeMyTrip Clone</title>
+    <style>
+        /* Header Styling */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #1976d2;
+            color: #fff;
+        }
+
+        /* Logo Styling */
+        .logo img {
+            height: 50px; /* Medium size for the logo */
+            width: auto;
+            margin-right: 20px;
+        }
+
+        /* Navigation Styling */
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Support Section Styling */
+        .support-section {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .form-container {
+            margin-bottom: 30px;
+        }
+
+        .form-container h2 {
+            margin-bottom: 10px;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .form-container input, 
+        .form-container textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .form-container button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1976d2;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #155a8a;
+        }
+
+        /* FAQ Section Styling */
+        .faq-section {
+            margin-top: 20px;
+        }
+
+        .faq-section h2 {
+            margin-bottom: 10px;
+        }
+
+        .faq-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .faq-section li {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            color: #333;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://w7.pngwing.com/pngs/598/909/png-transparent-makemytrip-flight-travel-hotel-india-travel.png" alt="MakeMyTrip Logo">
+            </a>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="flights.html">Flights</a>
+            <a href="hotels.html">Hotels</a>
+            <a href="trains.html">Trains</a>
+            <a href="buses.html">Buses</a>
+            <a href="holidays.html">Holidays</a>
+            <a href="account.html">Account</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </header>
+
+    <!-- Support Section -->
+    <section class="support-section">
+        <h1>Customer Support</h1>
+        
+        <!-- Contact Form -->
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <ul>
+                <li><strong>How can I cancel my booking?</strong> - Visit the 'My Bookings' section to cancel.</li>
+                <li><strong>How do I change my travel dates?</strong> - Contact support with your booking ID.</li>
+                <li><strong>Is there a refund for cancellations?</strong> - Check the cancellation policy for details.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MakeMyTrip Clone</p>
+    </footer>
+
+</body>
+</html>

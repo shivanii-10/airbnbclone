@@ -1,0 +1,80 @@
+/* Holiday Packages */
+.holiday-packages {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.logo img {
+    height: 40px; /* Adjust as needed */
+    width: 10px;
+    margin-right: 20px;
+}
+
+.holiday-packages .packages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.package {
+    background-color: #e3f2fd;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Account Section */
+.account-section, .support-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.form-container {
+    margin: 1rem auto;
+    max-width: 400px;
+    background-color: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.form-container h2 {
+    color: #1976d2;
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    background-color: #1976d2;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0d47a1;
+}
+
+/* FAQ Section */
+.faq-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq-section li {
+    padding: 0.5rem 0;
+}
